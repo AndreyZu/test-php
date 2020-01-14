@@ -1,0 +1,5 @@
+Stack trace:
+#0 C:\xampp\htdocs\inline\PDOAdapter.php(83): PDO->query('SELECT * FROM p...', 5)
+#1 C:\xampp\htdocs\inline\PDOAdapter.php(56): PDOAdapter->selectAll('SELECT * FROM p...', NULL)
+#2 C:\xampp\htdocs\inline\index.php(18): PDOAdapter->execute('selectAll', 'SELECT * FROM p...')
+#3 {main}
